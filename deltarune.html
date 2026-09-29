@@ -613,15 +613,12 @@
 
     document.addEventListener('keydown', handleMenuNavigation);
 
-    window.onload = () => {
-        if (window.location.hostname === 'deltarunefullwebport.vercel.app') {
-            document.getElementById('notice-container').innerHTML = `
-                <div class="deactivation-warning">
-                    This domain might get deactivated soon. Please export your saves and switch to the new official domain: 
-                    <a href="https://byalvaro19.github.io/deltarune/" target="_blank">byalvaro19.github.io/deltarune/</a>
-                </div>
-            `;
-        }
+
+
+
+
+
+    
 
         const savedToggle = localStorage.getItem('deltarune-mobile-toggle');
         if(savedToggle === 'true') {
